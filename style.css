@@ -2,3 +2,227 @@ body {
     font-size: 15pt;
     background: plum;
 }
+body , h1 , h2 , h3 , h4, h5 , h6 , ul {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+  height: 100vh
+}
+
+header nav ing{
+  max-width: 200px;
+}
+
+header nav{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header ing{
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.menu{
+  list-style: none;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.menu li{
+  padding-right: 15px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.intro{
+  padding: 50px 0;
+  text-align: center;
+}
+
+.intro h1{
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.Destinations{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Destinations ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px ;
+}
+
+.Destinations ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab; 
+}
+
+.Accomodations{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Accomodations ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.Accomodations ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab;
+}
+
+.Attractions{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: Center;
+}
+
+.Attractions ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Attractions ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab;
+}
+
+.Activities{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Activities ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Activities ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab;
+}
+
+.Events{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Events ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Events ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab;
+}
+.Tours{
+  display: block;
+  justify-content: space-around;
+  padding: 50px 0;
+  text-align: center 
+}
+
+.Tours ing{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Tours ing :hover{
+  transform: scale(0.95);
+  transition: 1s;
+  cursor: grab;
+}
+
+footer{
+  text-align: center;
+  padding: 20px 0;
+  background-color: black;
+  color: white;
+}
+
+footer a{
+  color: greenyellow;
+  text-decoration: none;
+}
+
+form{
+  display: block;
+  padding: 20px;
+  font-weight: 700;
+}
+
+form input{
+  width: 100%;
+  height: 40px;
+}
+
+form textarea{
+  width: 100%;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+
+header a :hover{
+  color: brown;
+}
+
+header nav{
+  text-transform: uppercase;
+  
+}
